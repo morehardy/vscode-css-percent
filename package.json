@@ -3,7 +3,7 @@
     "displayName": "CSS-Percent",
     "description": "cover your px to precent",
     "version": "0.0.1",
-    "publisher": "CSS-Percent",
+    "publisher": "morehardy",
     "engines": {
         "vscode": "^1.30.0"
     },
@@ -11,16 +11,38 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:extension.sayHello"
+        "onLanguage:html",
+        "onLanguage:vue",
+        "onLanguage:css",
+        "onLanguage:less",
+        "onLanguage:scss",
+        "onLanguage:sass",
+        "onLanguage:stylus",
+        "onLanguage:tpl"
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "extension.sayHello",
-                "title": "Hello World"
+        "configuration": {
+            "type": "object",
+            "title": "CSS-Percent configuration",
+            "properties": {
+                "CSSPercent.designWidth": {
+                    "type": "number",
+                    "default": 1920,
+                    "description": "design page's width (unit: px), default: 1920"
+                },
+                "CSSPercent.fixedDigits": {
+                    "type": "number",
+                    "default": 4,
+                    "description": "Px to percent decimal point maximum length, default: 4"
+                },
+                "CSSPercent.designHeight": {
+                    "type": "number",
+                    "default": 1080,
+                    "description": "design page's height (unit: px), default: 1080"
+                }
             }
-        ]
+        }
     },
     "scripts": {
         "vscode:prepublish": "npm run compile",
