@@ -1,6 +1,6 @@
-# css-percent README
+# css-percent
 
-This is the README for your extension "css-percent". After writing up a brief description, we recommend including the following sections.
+> a vscode snippet plugin for transform __px__ to percent, just like __vw__ , __vh__
 
 ## Features
 
