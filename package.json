@@ -2,7 +2,7 @@
     "name": "css-percent",
     "displayName": "CSS-Percent",
     "description": "transform __px__ to percent unit(vw, vh)",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "publisher": "morehardy",
     "engines": {
         "vscode": "^1.30.0"
