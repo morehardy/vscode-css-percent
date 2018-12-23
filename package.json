@@ -1,15 +1,35 @@
 {
     "name": "css-percent",
     "displayName": "CSS-Percent",
-    "description": "cover your px to precent",
-    "version": "0.0.1",
+    "description": "transform __px__ to percent unit(vw, vh)",
+    "version": "1.0.0",
     "publisher": "morehardy",
     "engines": {
         "vscode": "^1.30.0"
     },
+    "icon": "icon.png",
+    "homepage": "https://github.com/morehardy/vscode-css-percent",
+    "keywords": [
+        "CSS",
+        "css",
+        "percent",
+        "vw",
+        "px vw",
+        "vh",
+        "px vh"
+    ],
     "categories": [
+        "Snippets",
         "Other"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/morehardy/vscode-css-percent"
+    },
+    "bugs": {
+        "url": "https://github.com/morehardy/vscode-css-percent/issues",
+        "email": "morehardy@163.com"
+    },
     "activationEvents": [
         "onLanguage:html",
         "onLanguage:vue",
