@@ -22,4 +22,4 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-[issue](https://github.com/morehardy/vscode-css-percent/issues)
+[issue](https://github.com/morehardy/vscode-css-percent/issues)
