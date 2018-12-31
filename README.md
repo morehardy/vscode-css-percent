@@ -4,7 +4,7 @@
 
 ## Features
 
-![](https://github.com/morehardy/vscode-css-percent/blob/master/gif/1.gif)
+![demo](images/demo.gif)
 
 > **NOTE**: Please set up your extension configuration before you start using it.
 > __Configuration takes effect after reloading.__
