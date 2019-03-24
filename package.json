@@ -37,8 +37,7 @@
         "onLanguage:less",
         "onLanguage:scss",
         "onLanguage:sass",
-        "onLanguage:stylus",
-        "onLanguage:tpl"
+        "onLanguage:stylus"
     ],
     "main": "./out/extension",
     "contributes": {
